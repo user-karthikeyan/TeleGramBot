@@ -48,7 +48,6 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
 
 if __name__ == '__main__':
-    getMessage("CIT-1.pdf")
     application = ApplicationBuilder().token(os.getenv("Key")).build()
     
     #Building bot on the given ID
